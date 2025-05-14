@@ -1,0 +1,34 @@
+# PocketFlow框架
+git+https://github.com/the-pocket/PocketFlow.git
+
+# Web框架
+fastapi==0.100.0
+uvicorn==0.22.0
+pydantic==2.0.3
+aiohttp==3.8.5
+
+# 工具和实用程序
+requests==2.31.0
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# 异步和并发
+asyncio==3.4.3
+aiofiles==23.1.0
+
+# 日志和监控
+structlog==23.1.0
+
+# 数据处理
+numpy==1.24.3
+pandas==2.0.3
+
+# AI和LLM（可选，用于本地LLM功能）
+openai==1.0.0
+
+# 并发和异步支持
+uvloop>=0.16.0; sys_platform != 'win32'
+
+# 测试工具
+pytest>=7.0.0
+pytest-asyncio>=0.18.0 
